@@ -34,7 +34,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       foreignKey: true,
       allowNull: false
-    },,
+    },
     start_time: {
       type: DataTypes.TIME,
       allowNull:false
