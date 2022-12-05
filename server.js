@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 })
 
 // CONTROLLERS  
-const bandsController = require('./migrations/controllers/bands_controller')
+const bandsController = require('./controllers/bands_controller')
 app.use('/bands', bandsController)
 
 const eventsController = require('./controllers/events_controller')
